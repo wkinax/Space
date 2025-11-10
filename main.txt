@@ -1,0 +1,65 @@
+\documentclass[14pt]{extarticle}
+\usepackage{blindtext}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ left=20mm,
+ right=15mm,
+ top=20mm,
+ bottom=20mm,
+ }
+\usepackage{mathptmx}
+\usepackage{fontsize}
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{titlesec}
+\usepackage{amsmath}
+\usepackage{caption}
+\captionsetup[figure]{name={Рис.},labelsep=endash}
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}
+\renewcommand{\normalsize}{\fontsize{14}{17}\selectfont}
+\usepackage[english, russian]{babel}
+
+\linespread{1.2}
+\begin{document}
+\begin{center}
+    {\large \textbf {
+МИНИСТЕРСТВО НАУКИ И ВЫСШЕГО ОБРАЗОВАНИЯ \\
+САНКТ-ПЕТЕРБУРГСКИЙ ГОСУДАРСТВЕННЫЙ \\
+ЭЛЕКТРОТЕХНИЧЕСКИЙ УНИВЕРСИТЕТ \\
+"ЛЭТИ" им. В.И.Ульянова(Ленина) \\
+Кафедра САПР 
+}}
+
+
+
+\vskip 6 cm
+
+\textbf {ОТЧЁТ \\
+по лабораторной работе №1 \\
+по дисциплине "Информационные технологии" \\
+Тема: "Знакомство с SymPy" \\
+}
+
+\vskip 6 cm
+
+\begin{flushleft}
+{Студент гр. 4353 \hspace{8cm}\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ }Сизых П.В.\\
+Преподаватель \hspace{8.5cm}\underline{\ \ \ \ \ \ \ \ \ \ \ \ \ }Копец Е.Е.\\
+}
+\end{flushleft}
+\end{center}
+
+\vfill
+
+\begin{center}
+    Санкт-Петербург \\
+    2025 \\
+\end{center}
+\thispagestyle{empty}
+\newpage
+\input{лаба1}
+\end{document}
